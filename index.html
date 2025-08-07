@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<title>Página do Estudante</title>
+<style>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+header {
+  background-color: #004080;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+.menu {
+  float: left;
+  width: 20%;
+  background-color: #e6f0ff;
+  padding: 15px;
+}
+.menu a {
+  display: block;
+  background-color: #cce0ff;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #004080;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.menu a:hover {
+  background-color: #99c2ff;
+}
+.main {
+  float: left;
+  width: 60%;
+  padding: 20px;
+}
+.right {
+  float: left;
+  width: 20%;
+  background-color: #f1f1f1;
+  padding: 15px;
+}
+footer {
+  clear: both;
+  background-color: #004080;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+}
+@media only screen and (max-width: 768px) {
+  .menu, .main, .right {
+    width: 100%;
+    float: none;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Página do Estudante</h1>
+  <p>Nome: João da Silva | Curso: Engenharia de Software</p>
+</header>
+
+<div class="menu">
+  <a href="#">Notas</a>
+  <a href="#">Horários</a>
+  <a href="#">Materiais</a>
+  <a href="#">Contato</a>
+</div>
+
+<div class="main">
+  <h2>Bem-vindo, João!</h2>
+  <p>Este é o seu painel do estudante. Aqui você pode acompanhar suas notas, consultar horários de aulas e acessar materiais de estudo.</p>
+  <h3>Últimas Atividades</h3>
+  <ul>
+    <li>Prova de Algoritmos — 8,5</li>
+    <li>Trabalho de Banco de Dados entregue</li>
+    <li>Presença nas aulas de março: 95%</li>
+  </ul>
+</div>
+
+<div class="right">
+  <h2>Avisos</h2>
+  <p>📢 Matrículas para o próximo semestre abertas até 20/08.</p>
+  <p>📚 Feira de Ciências: 15/09.</p>
+</div>
+
+<footer>
+  &copy; 2025 Universidade Exemplo
+</footer>
+
+</body>
+</html>
